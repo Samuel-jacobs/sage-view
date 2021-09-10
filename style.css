@@ -44,6 +44,9 @@ img {
 .title{
   position: relative;
 }
+.cap-title {
+  font-size: 50px;
+}
 
 #section1 {
   padding: 100px 50px;
@@ -189,6 +192,13 @@ a.f-icons {
   #section2 {
     padding: 50px 20px 100px 20px;
   }
+  .modal {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .modal-content {
+    width: 100%;
+  }
   .navbar-nav {
     text-align: center;
     padding: 30px 0;
@@ -198,6 +208,15 @@ a.f-icons {
   }
   .nav-item {
     padding: 5px 0;
+  }
+  .carousel-item{
+    height: 100vh;
+  } 
+  .carousel-caption{
+    top: 20%;
+  }
+  img.header-img {
+    height: 100vh;
   }
 }
 @media screen and (min-width: 768px){
@@ -229,7 +248,7 @@ a.f-icons {
   }
   
   img.header-img {
-    height: 700px;
+    height: 100vh;
   }
   #section1 {
     padding: 100px 400px;
