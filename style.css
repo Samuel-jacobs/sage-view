@@ -20,6 +20,23 @@ a.nav-links {
   text-align: center;
   margin: 0 auto;
 }
+.btn1:hover {
+  background-color: transparent;
+  border: 2px solid hsl(233, 8%, 62%);
+  color: white;
+}
+
+.btn2 {
+  border: 2px solid hsl(233, 8%, 62%);
+  border-radius: 20px;
+  color: white;
+}
+.btn2:hover {
+  background-color: hsl(233, 8%, 62%);
+}
+.btn-s:hover {
+  color:hsl(233, 8%, 62%);
+}
 img {
   height: auto;
   width: 100%;
@@ -33,15 +50,15 @@ img {
   text-align: center;
   background-color:  hsl(0, 0%, 98%);
 }
-.line {
-  border-bottom: 2px solid hsl(233, 8%, 62%);
+hr {
+  height: 3px;
 }
+
 .line1 {
   width: 50%;
   margin: 0 auto;
 }
 #section2 {
-  padding: 100px;
   background-color: hsl(220, 16%, 96%);
   text-align: center;
 }
@@ -181,19 +198,47 @@ a.f-icons {
   }
   .nav-item {
     padding: 5px 0;
-   
   }
 }
 @media screen and (min-width: 768px){
   .navbar {
     padding: 10px 50px;
   }
+  
+  .nav-links {
+    padding: 0 10px 20px 10px;
+    position: relative;
+  }
+  .nav-links::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: hsl(233, 8%, 62%);
+    transform: scaleX(0);
+    
+    transition: transform 250ms ease-in;
+  }
+  .nav-links:hover::after {
+	  transform: scaleX(1);
+  }
+  .carousel-caption {
+    top: 40%;
+  }
+  
   img.header-img {
     height: 700px;
   }
-  .nav-links {
-    padding: 0 10px;
+  #section1 {
+    padding: 100px 400px;
   }
+  #section2 {
+    padding: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   #section1 {
     padding: 100px 200px;
   }

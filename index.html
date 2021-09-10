@@ -43,11 +43,16 @@
     </nav>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/header.jpg" class="header-img"alt="header image">
+        <img src="images/header.jpg" class="header-img" alt="header image">
       </div>
       <div class="carousel-caption">
-        <h1>Hello!! I'm Daniel Sageview</h1>
-        <p>I'm a professional Photographer</p>
+       
+        <h1 class="cap-title font-weight-bolder"> Daniel Sageview</h1>
+        <p><i>professional Photographer and editor</i></p>
+        <div class="cta pt-4">
+          <a href="#" class="btn btn1"> Book Me </a> 
+          <a href="#" class="btn btn2">Learn More</a>
+      </div>
       </div>
     </div>
   </header>
@@ -55,13 +60,15 @@
     <section id="section1">
       <div id="about">
         <h1 class="title">About Me</h1>
+        <hr class="line">
         <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus, officiis nisi numquam aut dicta, alias totam quisquam sequi magni iste ad consectetur vel quia blanditiis nulla, laborum officia impedit!  </p>
         <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum commodi unde, quo ab hic voluptas atque, nisi non repellendus tempora quae omnis quos nostrum? Officiis delectus laudantium eius possimus!</p>
-        <a href="#" class="btn btn1">Learn More</a>
+        <a href="#" class="btn btn1 btn-s">Learn More</a>
       </div>
     </section>
     <section id="section2">
       <h1 class="title">My work</h1>
+      <hr class="line line1">
       <!-- Gallery -->
       <div class="row pt-5">
         <div class=" col-lg-4  col-md-6 mb-3 mb-lg-0">
@@ -76,16 +83,17 @@
           <img src="images/image3.jpg" onclick="openModal(); currentSlide(3)" class="w-100 shadow-1-strong rounded mb-4"
             alt="" />
 
-          <img src="images/image5.jpg" onclick="openModal(); currentSlide(4)" class="w-100 shadow-1-strong rounded mb-4"
+          <img src="images/image5.jpg" onclick="openModal(); currentSlide(4)" class="w-100 shadow rounded mb-4"
             alt="" />
         </div>
 
         <div class="col-lg-4 col-md-6 mb-3 mb-lg-0">
-          <img src="images/image4.jpg" onclick="openModal(); currentSlide(5)" class="w-100 shadow-1-strong rounded mb-4"
-            alt="" />
-
           <img src="images/image6.jpg" onclick="openModal(); currentSlide(6)" class="w-100 shadow-1-strong rounded mb-4"
           alt="" />
+
+          <img src="images/image4.jpg" onclick="openModal(); currentSlide(5)" class="w-100 shadow-1-strong rounded mb-4"
+            alt="" />
+  
         </div>
       </div>
       <!-- Gallery -->
@@ -128,7 +136,7 @@
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
       </div>
-      <a href="#" class="btn btn1 text-center">More pictures</a>
+      <a href="#" class="btn btn1 btn-s text-center">See more pictures</a>
     </section>
     <footer id="footer">
       
