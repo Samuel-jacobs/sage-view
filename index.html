@@ -43,7 +43,12 @@
     </nav>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/header-1.jpg" class="header-img" alt="header image">
+        <picture>
+          <source media="(max-width: 991px)" srcset="images/header-1.jpg">
+				  <source media="(min-width: 992px)" srcset="images/header.jpg">
+          <img src="images/header-1.jpg" class="header-img" alt="header image">
+        </picture>
+        
       </div>
       <div class="carousel-caption">
        
