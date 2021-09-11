@@ -245,6 +245,10 @@ a.f-icons {
   }
   .modal-content {
     width: 100%;
+    
+  }
+  img.modal-img {
+    height: 90vh;
   }
   .navbar-nav {
     text-align: center;
