@@ -14,7 +14,9 @@
 <body>
   <header>
     <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-transparent">
-      <a href="#" class="navbar-brand"> Sage View </a>
+      <a class="navbar-brand" href="index.html"> Sage View 
+         <!--<img src="images/logo.png" class="nav-logo" alt="logo image"> -->
+      </a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,14 +28,19 @@
           <li class="nav-item">
             <a href="about.html" class="nav-links">About Me</a>
           </li>
-          <li class="nav-item">
-            <a href="gallery.html" class="nav-links">Gallery</a>
+          <li class="nav-item dropdown">
+            <a class="nav-links " href="#" id="navbardrop" data-toggle="dropdown"> Gallery <i class="fa fa-caret-down" aria-hidden="true"></i>  </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item nav-links">Potrait</a>
+              <a href="#" class="dropdown-item nav-links">Wedding</a>
+              <a href="#" class="dropdown-item nav-links">Fashion</a>
+            </div>
           </li>
           <li class="nav-item">
             <a href="contact.html" class="nav-links">Contact Me</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-links">Shop</a>
+            <a href="shop.html" class="nav-links">Shop</a>
           </li>
           
         </ul>
@@ -53,7 +60,7 @@
         <h1 class="cap-title font-weight-bolder"> Daniel Sageview</h1>
         <p><i>professional Photographer and creative</i></p>
         <div class="cta pt-4">
-          <a href="#" class="btn btn1"> Book appointment </a> 
+          <a href="contact.html" class="btn btn1"> Book photoshoot </a> 
       </div>
       </div>
     </div>
@@ -63,7 +70,7 @@
   <main>
     <section id="section1">
       <div class="about">
-        <h1 class="title">About Me</h1>
+        <h1 class="title display-4">About Me</h1>
         <hr class="line">
         <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere natus, officiis nisi numquam aut dicta, alias totam quisquam sequi magni iste ad consectetur vel quia blanditiis nulla, laborum officia impedit!  </p>
         <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum commodi unde, quo ab hic voluptas atque, nisi non repellendus tempora quae omnis quos nostrum? Officiis delectus laudantium eius possimus!</p>
@@ -71,7 +78,7 @@
       </div>
     </section>
     <section id="section2">
-      <h1 class="title">Gallery</h1>
+      <h1 class="title display-4">Gallery</h1>
       <hr class="line line1">
       <!-- Gallery -->
       <div class="row pt-5">

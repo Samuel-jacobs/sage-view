@@ -14,6 +14,13 @@ a:link {
 a.nav-links {
   color: hsl(233, 8%, 62%);
 }
+
+.dropdown-menu {
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 .btn1 {
   border-radius: 20px;
   background-color: hsl(233, 8%, 62%);
@@ -231,6 +238,10 @@ a.f-icons {
 }
 
 @media screen and (max-width: 767px) {
+  .dropdown-menu {
+    margin: 0 50px;
+    text-align: center;
+  }
   #section1 {
     text-align: center;
     border: 2px dashed hsl(233, 8%, 62%);
@@ -277,7 +288,9 @@ a.f-icons {
   .navbar {
     padding: 10px 50px;
   }
-  
+  .nvbar-nav {
+    background-color: white;
+  }
   .nav-links {
     padding: 0 10px 20px 10px;
     position: relative;
