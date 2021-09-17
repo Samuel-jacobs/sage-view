@@ -18,12 +18,17 @@ img.preset-img:hover {
 }
 .btn-shop {
   border-radius: 20px;
-  background-color: hsl(233, 8%, 62%);
+  border: 2px solid white;
+  background-color:hsl(233, 8%, 62%);
+  color: white;
 }
 .btn-shop:hover {
-  border: 2px solid hsl(233, 8%, 62%);
-  background-color: transparent;
-  color: hsl(233, 8%, 62%);
+  box-shadow: 3px 3px  5px black;
+  color: white;
+}
+
+.card-footer {
+  background-color:hsl(233, 8%, 62%);
 }
 @media screen and (max-width: 767px) {
   #shop {

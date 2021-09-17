@@ -4,6 +4,7 @@
 }
 .about-wrapper {
   border: 2px dashed hsl(233, 8%, 62%);
+  border-radius: 10px;
 }
 .about-content {
   padding-top: 30px;
